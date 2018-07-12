@@ -1,0 +1,10 @@
+2018-07-11 15:57:58.558  INFO 2016 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 2016 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-11 15:57:58.562 DEBUG 2016 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-11 15:57:58.565  INFO 2016 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-11 15:57:58.657  INFO 2016 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57cf54e1: startup date [Wed Jul 11 15:57:58 CST 2018]; root of context hierarchy
+2018-07-11 15:58:00.554  INFO 2016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-11 15:58:06.134  INFO 2016 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.791 seconds (JVM running for 13.237)
+2018-07-11 15:58:06.435  INFO 2016 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:https://open.ys7.com/api/lapp/device/add
+2018-07-11 15:58:06.440  INFO 2016 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-11 15:58:08.148  INFO 2016 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"msg":"accessToken过期或异常","code":"10002"}
+2018-07-11 15:58:08.168  INFO 2016 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@57cf54e1: startup date [Wed Jul 11 15:57:58 CST 2018]; root of context hierarchy
