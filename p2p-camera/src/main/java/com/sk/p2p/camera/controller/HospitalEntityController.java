@@ -33,11 +33,11 @@ public class HospitalEntityController extends BaseController {
      * @param validateCode 设备验证码
      * @return
      */
-    @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
-    public Result selectAll(@NotEmpty(message = "社群id不能为空") String circleId,
+    @RequestMapping(value = "/findAll", method = RequestMethod.POST)
+    public Result findAll(@NotEmpty(message = "社群id不能为空") String circleId,
                       @NotEmpty(message = "设备序列号不能为空") String deviceSerial,
                       @NotEmpty(message = "设备验证码不能为空") String validateCode) {
-        List<HospitalEntity> hospitalEntityList = hospitalEntityService.slelectAll(circleId, deviceSerial, validateCode);
+        List<HospitalEntity> hospitalEntityList = hospitalEntityService.findAllHospital(circleId, deviceSerial, validateCode);
         System.out.println(hospitalEntityList+"");
         logger.info(hospitalEntityList+"");
         return new Result(ResultState.SUCCESS, "添加成功");

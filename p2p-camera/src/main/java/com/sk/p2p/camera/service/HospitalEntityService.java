@@ -15,6 +15,6 @@ public interface HospitalEntityService extends BaseService<HospitalEntity> {
      * @param deviceSerial 设备序列号
      * @param validateCode 设备验证码
      */
-    List<HospitalEntity> slelectAll(String circleId, String deviceSerial, String validateCode);
+    List<HospitalEntity> findAllHospital(String circleId, String deviceSerial, String validateCode);
 
 }

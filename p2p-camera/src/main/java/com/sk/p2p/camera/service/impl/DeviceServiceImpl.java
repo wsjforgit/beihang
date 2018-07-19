@@ -15,6 +15,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
+
 @Service
 @Transactional
 public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> implements DeviceService {
@@ -29,6 +31,8 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
     CircleDeviceService circleDeviceService;
     @Autowired
     HttpUtils httpUtils;
+    @Autowired
+    DeviceMapper DeviceMapper;
 
     //添加设备
     @Override
@@ -38,6 +42,13 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
             }
     )
     public void add(String circleId, String deviceSerial, String validateCode) {
+        System.out.println("im in=======");
+        Device device = new Device();
+        device.setCreateDate(new Date());
+        device.setHerbsName(circleId);
+        device.setHospitalName(deviceSerial);
+        device.setSupplierName(validateCode);
+        DeviceMapper.insert(device);
 //  throw new BusinessException("设备已被占用", "5001");
     }
 

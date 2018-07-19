@@ -31,14 +31,10 @@ public class HospitalEntityServiceImpl extends BaseServiceImpl<HospitalEntity, H
     HttpUtils httpUtils;
 
     //添加设备
-    @Autowired
-    @Caching(
-            evict = {
-                    @CacheEvict(value = "p2p:cameraList", allEntries = true),
-            }
-    )
-    public List<HospitalEntity> slelectAll(String circleId, String deviceSerial, String validateCode) {
+    @Override
+    public List<HospitalEntity> findAllHospital(String circleId, String deviceSerial, String validateCode) {
         List<HospitalEntity> hospitalEntityList = HospitalEntityMapper.selectAll();
+
         return hospitalEntityList;
 //  throw new BusinessException("设备已被占用", "5001");
     }

@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class HospitalEntity extends BaseEntity {
     //医院表
-    private Integer id;
+    private String id;
     //医院名称
     private String hospitalName;
     //医院编号

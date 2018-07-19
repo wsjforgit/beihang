@@ -22,7 +22,7 @@ public class TestHospitalEntityService {
 
     @Test
     public void testSimpleRequest() {
-//2.添加设备到萤石
+        //2.my hospitol
         HttpUtils bean = ApplicationContextUtil.getBean(HttpUtils.class);
         Map<String, String> params = new HashMap<>();
         params.put("accessToken", "at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94");
