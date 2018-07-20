@@ -42,10 +42,13 @@ public class DeviceController extends BaseController {
     public Result add( String circleId,
                        String deviceSerial,
                        String validateCode) {
-        logger.info("im  in DeviceController");
-        deviceService.add(circleId, deviceSerial, validateCode);
-//        return new Result(ResultState.SUCCESS, "添加成功");
-        return null;
+        logger.info("im  in add");
+        Integer ii = deviceService.add(circleId, deviceSerial, validateCode);
+        if(ii>0){
+            return new Result(ResultState.SUCCESS, "添加成功");
+        }else{
+            return new Result(ResultState.FAIL, "添加失败");
+        }
     }
     /**
      * 查询所有
@@ -54,16 +57,28 @@ public class DeviceController extends BaseController {
      */
     @RequestMapping(value = "/selectAll")
     public Result selectAll() {
-        logger.info("im  in DeviceController");
+        logger.info("im  in selectAll");
         List<Device> ListDevice = deviceService.listDevice();
         if(ListDevice!=null&&ListDevice.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListDevice);
-//            Map<String, String> params = new HashMap<>();
-//            params.put("accessToken", "at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94");
-//            String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/add", params);
             return new Result(ResultState.SUCCESS, backMessage);
         }
         return new Result(ResultState.SUCCESS, "失败");
+    }
+    /**
+     * 根据id修改数据
+     *
+     * @return
+     */
+    @RequestMapping(value = "/updateDevice")
+    public Result updateDevice(String id) {
+        logger.info("im  in updateDevice");
+        Integer ii = deviceService.updateDevice(id);
+        if(ii>0){
+            return new Result(ResultState.SUCCESS, "添加成功");
+        }else{
+            return new Result(ResultState.FAIL, "添加失败");
+        }
     }
 
 

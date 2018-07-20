@@ -37,13 +37,14 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
 
     //添加设备
     @Override
-    public void add(String circleId, String deviceSerial, String validateCode) {
+    public Integer add(String circleId, String deviceSerial, String validateCode) {
         Device device = new Device();
         device.setCreateDate(new Date());
         device.setHerbsName(circleId);
         device.setHospitalName(deviceSerial);
         device.setSupplierName(validateCode);
-        deviceMapper.insert(device);
+        Integer ii=deviceMapper.insert(device);
+        return ii;
 //  throw new BusinessException("设备已被占用", "5001");
     }
 
@@ -51,6 +52,15 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
     public List<Device> listDevice() {
         List<Device> listDevice = deviceMapper.listDevice();
         return listDevice;
+    }
+
+    @Override
+    public Integer updateDevice(String id) {
+        Device device =new Device();
+        device.setId(id);
+        device.setHerbsName("wsjtest");
+        Integer ii = deviceMapper.updateById(device);
+        return ii;
     }
 
 

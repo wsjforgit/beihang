@@ -13,6 +13,11 @@
                 INSERT INTO cooperationCenter (id,hospitalName,supplierName,herbsName,cooperationTime)VALUES(#{id,jdbcType=VARCHAR},#{hospitalName,jdbcType=VARCHAR},#{supplierName,jdbcType=VARCHAR},#{herbsName,jdbcType=VARCHAR},#{cooperationTime,jdbcType=VARCHAR});
         </insert>
 
+        <update id="updateById" >
+                UPDATE cooperationCenter SET hospitalName=#{hospitalName},supplierName=#{supplierName},herbsName=#{herbsName},cooperationTime=#{cooperationTime}
+                where id=#{id}
+        </update>
+
         <select id="listDevice" resultMap="BaseResultMap">
                 SELECT * FROM cooperationCenter;
         </select>
