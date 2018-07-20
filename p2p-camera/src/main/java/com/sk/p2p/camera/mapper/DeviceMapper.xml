@@ -2,5 +2,19 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sk.p2p.camera.mapper.DeviceMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.Device">
+                <id column="id" property="id" jdbcType="VARCHAR"/>
+                <result column="hospitalName" property="hospitalName" jdbcType="VARCHAR"/>
+                <result column="supplierName" property="supplierName" jdbcType="VARCHAR"/>
+                <result column="herbsName" property="herbsName" jdbcType="VARCHAR"/>
+                <result column="cooperationTime" property="cooperationTime" jdbcType="VARCHAR"/>
+        </resultMap>
+        <insert id="insert" parameterType="com.sk.p2p.camera.entity.Device">
+                INSERT INTO cooperationCenter (id,hospitalName,supplierName,herbsName,cooperationTime)VALUES(#{id,jdbcType=VARCHAR},#{hospitalName,jdbcType=VARCHAR},#{supplierName,jdbcType=VARCHAR},#{herbsName,jdbcType=VARCHAR},#{cooperationTime,jdbcType=VARCHAR});
+        </insert>
+
+        <select id="listDevice" resultMap="BaseResultMap">
+                SELECT * FROM cooperationCenter;
+        </select>
 
 </mapper>

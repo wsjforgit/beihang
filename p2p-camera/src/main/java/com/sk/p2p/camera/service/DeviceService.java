@@ -17,5 +17,10 @@ public interface DeviceService extends BaseService<Device> {
      * @param validateCode 设备验证码
      */
     void add(String circleId, String deviceSerial, String validateCode);
+    /**
+     * 查询全部数据
+     *
+     */
+    List<Device> listDevice();
 
 }

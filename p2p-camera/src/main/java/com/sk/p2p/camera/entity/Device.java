@@ -1,7 +1,9 @@
 package com.sk.p2p.camera.entity;
 
 import com.sk.base.entity.BaseEntity;
+import com.sk.base.utils.KeyGenerator;
 import lombok.Data;
+import org.apache.commons.codec.binary.Hex;
 
 import java.util.Date;
 
@@ -20,6 +22,12 @@ public class Device extends BaseEntity {
 
     @Override
     public String getId() {
+        if(id==null||"".equalsIgnoreCase(id)){
+            id = KeyGenerator.getUUId();
+        }else {
+            id=id;
+        }
+
         return id;
     }
 

@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.List;
 
 @Service
 @Transactional
@@ -32,24 +33,24 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
     @Autowired
     HttpUtils httpUtils;
     @Autowired
-    DeviceMapper DeviceMapper;
+    DeviceMapper deviceMapper;
 
     //添加设备
     @Override
-    @Caching(
-            evict = {
-                    @CacheEvict(value = "p2p:cameraList", allEntries = true),
-            }
-    )
     public void add(String circleId, String deviceSerial, String validateCode) {
-        System.out.println("im in=======");
         Device device = new Device();
         device.setCreateDate(new Date());
         device.setHerbsName(circleId);
         device.setHospitalName(deviceSerial);
         device.setSupplierName(validateCode);
-        DeviceMapper.insert(device);
+        deviceMapper.insert(device);
 //  throw new BusinessException("设备已被占用", "5001");
+    }
+
+    @Override
+    public List<Device> listDevice() {
+        List<Device> listDevice = deviceMapper.listDevice();
+        return listDevice;
     }
 
 
