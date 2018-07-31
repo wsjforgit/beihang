@@ -22,14 +22,11 @@ public class TestHospitalEntityService {
 
     @Test
     public void testSimpleRequest() {
-        //2.my hospitol
         HttpUtils bean = ApplicationContextUtil.getBean(HttpUtils.class);
         Map<String, String> params = new HashMap<>();
-        params.put("accessToken", "at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94");
-        params.put("deviceSerial", "117091953");
-        params.put("validateCode", "XEQBOK");
-        String post = bean.post("https://open.ys7.com/api/lapp/device/add", params);
-        System.out.println(post);
+        params.put("id", "1");
+        String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/findById", params);
+        logger.info(post);
 
 
     }

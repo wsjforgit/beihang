@@ -7,6 +7,7 @@ import com.sk.p2p.camera.entity.HospitalEntity;
  * Created by wsj on 2018/7/12.
  */
 public interface HospitalEntityMapper  extends BaseMapper<HospitalEntity> {
+    HospitalEntity selectById(String id);
     
 
 

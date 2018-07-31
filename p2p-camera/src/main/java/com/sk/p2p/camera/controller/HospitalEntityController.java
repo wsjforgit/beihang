@@ -3,6 +3,7 @@ package com.sk.p2p.camera.controller;
 import com.sk.base.commons.Result;
 import com.sk.base.commons.ResultState;
 import com.sk.base.controller.BaseController;
+import com.sk.base.utils.JsonFormatOutUtil;
 import com.sk.p2p.camera.entity.HospitalEntity;
 import com.sk.p2p.camera.service.DeviceService;
 import com.sk.p2p.camera.service.HospitalEntityService;
@@ -28,19 +29,19 @@ public class HospitalEntityController extends BaseController {
     /**
      * 添加设备
      *
-     * @param circleId     社群id
-     * @param deviceSerial 设备序列号
-     * @param validateCode 设备验证码
+     * @param
      * @return
      */
-    @RequestMapping(value = "/findAll", method = RequestMethod.POST)
-    public Result findAll(@NotEmpty(message = "社群id不能为空") String circleId,
-                      @NotEmpty(message = "设备序列号不能为空") String deviceSerial,
-                      @NotEmpty(message = "设备验证码不能为空") String validateCode) {
-        List<HospitalEntity> hospitalEntityList = hospitalEntityService.findAllHospital(circleId, deviceSerial, validateCode);
-        System.out.println(hospitalEntityList+"");
-        logger.info(hospitalEntityList+"");
-        return new Result(ResultState.SUCCESS, "添加成功");
+    @RequestMapping(value = "/findById", method = RequestMethod.POST)
+    public Result findById(@NotEmpty(message = "id不能为空") String id) {
+        HospitalEntity hospitalEntity = hospitalEntityService.findById(id);
+        String backMessage ="";
+        if(hospitalEntity!=null){
+            backMessage = JsonFormatOutUtil.toJSONString(hospitalEntity);
+            logger.info(backMessage);
+            return new Result(ResultState.SUCCESS, backMessage);
+        }
+        return new Result(ResultState.FAIL, "失败");
     }
 
 

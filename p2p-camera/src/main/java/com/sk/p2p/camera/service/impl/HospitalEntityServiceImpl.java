@@ -30,13 +30,11 @@ public class HospitalEntityServiceImpl extends BaseServiceImpl<HospitalEntity, H
     @Autowired
     HttpUtils httpUtils;
 
-    //添加设备
-    @Override
-    public List<HospitalEntity> findAllHospital(String circleId, String deviceSerial, String validateCode) {
-        List<HospitalEntity> hospitalEntityList = HospitalEntityMapper.selectAll();
 
-        return hospitalEntityList;
-//  throw new BusinessException("设备已被占用", "5001");
+    @Override
+    public HospitalEntity findById(String id) {
+        HospitalEntity hospitalEntity = HospitalEntityMapper.selectById(id);
+        return hospitalEntity;
     }
 
 }
