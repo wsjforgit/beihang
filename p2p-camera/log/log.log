@@ -339,3 +339,546 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2018-07-19 15:51:56.823  INFO 18684 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
 2018-07-19 15:51:57.147  INFO 18684 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"1001"}
 2018-07-19 15:51:57.156  INFO 18684 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Thu Jul 19 15:51:43 CST 2018]; root of context hierarchy
+2018-07-19 17:46:58.611  INFO 21080 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21080 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-19 17:46:58.615 DEBUG 21080 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-19 17:46:58.616  INFO 21080 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-19 17:46:58.669  INFO 21080 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Thu Jul 19 17:46:58 CST 2018]; root of context hierarchy
+2018-07-19 17:46:59.996  INFO 21080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-19 17:47:05.876  INFO 21080 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.236 seconds (JVM running for 10.345)
+2018-07-19 17:47:05.959  INFO 21080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-19 17:47:05.964  INFO 21080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-19 17:47:08.865  INFO 21080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-19 17:47:08.927  INFO 21080 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Thu Jul 19 17:46:58 CST 2018]; root of context hierarchy
+2018-07-19 17:51:38.804  INFO 13156 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 13156 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-19 17:51:38.812 DEBUG 13156 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-19 17:51:38.813  INFO 13156 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-19 17:51:38.879  INFO 13156 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Thu Jul 19 17:51:38 CST 2018]; root of context hierarchy
+2018-07-19 17:51:40.263  INFO 13156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-19 17:51:47.448  INFO 13156 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.719 seconds (JVM running for 11.974)
+2018-07-19 17:51:47.538  INFO 13156 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-19 17:51:47.543  INFO 13156 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-19 17:51:49.580  INFO 13156 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-19 17:51:49.678  INFO 13156 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Thu Jul 19 17:51:38 CST 2018]; root of context hierarchy
+2018-07-20 09:14:48.090  INFO 11628 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 11628 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 09:14:48.094 DEBUG 11628 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 09:14:48.095  INFO 11628 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 09:14:48.149  INFO 11628 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:14:48 CST 2018]; root of context hierarchy
+2018-07-20 09:14:49.698  INFO 11628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 09:14:54.653  INFO 11628 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.942 seconds (JVM running for 9.934)
+2018-07-20 09:14:54.945  INFO 11628 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 09:14:54.957  INFO 11628 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 09:14:57.443  INFO 11628 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 09:14:57.541  INFO 11628 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:14:48 CST 2018]; root of context hierarchy
+2018-07-20 09:18:29.305  INFO 5012 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 5012 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 09:18:29.309 DEBUG 5012 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 09:18:29.310  INFO 5012 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 09:18:29.398  INFO 5012 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:18:29 CST 2018]; root of context hierarchy
+2018-07-20 09:18:31.543  INFO 5012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 09:18:40.143  INFO 5012 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 12.788 seconds (JVM running for 15.723)
+2018-07-20 09:18:40.203  INFO 5012 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 09:18:40.207  INFO 5012 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 09:18:40.812  INFO 5012 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 09:18:41.293  INFO 5012 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:18:29 CST 2018]; root of context hierarchy
+2018-07-20 09:37:55.873  INFO 19880 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 19880 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 09:37:55.880 DEBUG 19880 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 09:37:55.885  INFO 19880 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 09:37:55.962  INFO 19880 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:37:55 CST 2018]; root of context hierarchy
+2018-07-20 09:37:57.317  INFO 19880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 09:38:02.375  INFO 19880 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.043 seconds (JVM running for 9.622)
+2018-07-20 09:38:02.448  INFO 19880 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 09:38:02.453  INFO 19880 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 09:38:04.794  INFO 19880 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 09:38:04.978  INFO 19880 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 09:37:55 CST 2018]; root of context hierarchy
+2018-07-20 10:00:25.583  INFO 6580 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 6580 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:00:25.590 DEBUG 6580 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:00:25.592  INFO 6580 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:00:25.666  INFO 6580 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:00:25 CST 2018]; root of context hierarchy
+2018-07-20 10:00:27.047  INFO 6580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:00:32.654  INFO 6580 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.828 seconds (JVM running for 10.335)
+2018-07-20 10:00:32.730  INFO 6580 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:00:32.736  INFO 6580 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:00:35.288  INFO 6580 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:00:35.609  INFO 6580 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:00:25 CST 2018]; root of context hierarchy
+2018-07-20 10:04:14.011  INFO 12188 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 12188 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:04:14.017 DEBUG 12188 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:04:14.018  INFO 12188 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:04:14.092  INFO 12188 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:04:14 CST 2018]; root of context hierarchy
+2018-07-20 10:04:15.489  INFO 12188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:04:20.351  INFO 12188 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.301 seconds (JVM running for 9.52)
+2018-07-20 10:04:20.415  INFO 12188 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:04:20.419  INFO 12188 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:04:23.398  INFO 12188 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:04:23.447  INFO 12188 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:04:14 CST 2018]; root of context hierarchy
+2018-07-20 10:05:33.041  INFO 8792 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 8792 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:05:33.044 DEBUG 8792 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:05:33.045  INFO 8792 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:05:33.101  INFO 8792 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:05:33 CST 2018]; root of context hierarchy
+2018-07-20 10:05:34.394  INFO 8792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:05:39.013  INFO 8792 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 6.944 seconds (JVM running for 9.256)
+2018-07-20 10:05:39.078  INFO 8792 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:05:39.082  INFO 8792 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:05:41.316  INFO 8792 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:05:41.417  INFO 8792 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:05:33 CST 2018]; root of context hierarchy
+2018-07-20 10:07:53.061  INFO 8752 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 8752 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:07:53.065 DEBUG 8752 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:07:53.065  INFO 8752 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:07:53.118  INFO 8752 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:07:53 CST 2018]; root of context hierarchy
+2018-07-20 10:07:54.436  INFO 8752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:07:59.302  INFO 8752 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.502 seconds (JVM running for 9.381)
+2018-07-20 10:07:59.505  INFO 8752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:07:59.510  INFO 8752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:08:02.400  INFO 8752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:08:02.473  INFO 8752 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:07:53 CST 2018]; root of context hierarchy
+2018-07-20 10:14:35.932  INFO 20120 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 20120 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:14:35.935 DEBUG 20120 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:14:35.936  INFO 20120 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:14:35.988  INFO 20120 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:14:35 CST 2018]; root of context hierarchy
+2018-07-20 10:14:37.283  INFO 20120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:14:42.159  INFO 20120 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.116 seconds (JVM running for 10.265)
+2018-07-20 10:14:42.227  INFO 20120 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:14:42.231  INFO 20120 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:14:46.034  INFO 20120 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:14:46.294  INFO 20120 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:14:35 CST 2018]; root of context hierarchy
+2018-07-20 10:17:42.322  INFO 13252 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 13252 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:17:42.345 DEBUG 13252 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:17:42.347  INFO 13252 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:17:42.420  INFO 13252 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:17:42 CST 2018]; root of context hierarchy
+2018-07-20 10:17:43.905  INFO 13252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:17:48.827  INFO 13252 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.051 seconds (JVM running for 10.075)
+2018-07-20 10:17:49.020  INFO 13252 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:17:49.025  INFO 13252 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:17:51.559  INFO 13252 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:17:51.610  INFO 13252 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:17:42 CST 2018]; root of context hierarchy
+2018-07-20 10:34:37.888  INFO 9000 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 9000 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:34:37.891 DEBUG 9000 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:34:37.893  INFO 9000 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:34:37.937  INFO 9000 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:34:37 CST 2018]; root of context hierarchy
+2018-07-20 10:34:39.263  INFO 9000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:34:44.273  INFO 9000 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.307 seconds (JVM running for 9.583)
+2018-07-20 10:34:44.347  INFO 9000 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:34:44.351  INFO 9000 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:34:46.591  INFO 9000 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 10:34:46.639  INFO 9000 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:34:37 CST 2018]; root of context hierarchy
+2018-07-20 10:40:53.671  INFO 19752 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 19752 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:40:53.675 DEBUG 19752 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:40:53.676  INFO 19752 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:40:53.747  INFO 19752 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:40:53 CST 2018]; root of context hierarchy
+2018-07-20 10:40:55.210  INFO 19752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:41:00.444  INFO 19752 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.881 seconds (JVM running for 9.638)
+2018-07-20 10:41:00.501  INFO 19752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:41:00.505  INFO 19752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:41:03.348  INFO 19752 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720104102"}
+2018-07-20 10:41:03.376  INFO 19752 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:40:53 CST 2018]; root of context hierarchy
+2018-07-20 10:48:26.737  INFO 21048 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21048 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 10:48:26.742 DEBUG 21048 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 10:48:26.743  INFO 21048 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 10:48:26.801  INFO 21048 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:48:26 CST 2018]; root of context hierarchy
+2018-07-20 10:48:28.120  INFO 21048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 10:48:33.626  INFO 21048 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.824 seconds (JVM running for 10.481)
+2018-07-20 10:48:33.723  INFO 21048 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 10:48:33.728  INFO 21048 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 10:48:36.314  INFO 21048 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720104836"}
+2018-07-20 10:48:36.353  INFO 21048 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 10:48:26 CST 2018]; root of context hierarchy
+2018-07-20 11:40:14.699  INFO 12060 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 12060 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 11:40:14.704 DEBUG 12060 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 11:40:14.707  INFO 12060 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 11:40:14.754  INFO 12060 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 11:40:14 CST 2018]; root of context hierarchy
+2018-07-20 11:40:16.070  INFO 12060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 11:40:21.021  INFO 12060 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.72 seconds (JVM running for 9.759)
+2018-07-20 11:40:21.260  INFO 12060 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 11:40:21.266  INFO 12060 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 11:40:24.466  INFO 12060 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720114023"}
+2018-07-20 11:40:24.703  INFO 12060 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 11:40:14 CST 2018]; root of context hierarchy
+2018-07-20 11:46:37.452  INFO 10532 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10532 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 11:46:37.483 DEBUG 10532 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 11:46:37.487  INFO 10532 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 11:46:37.594  INFO 10532 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 11:46:37 CST 2018]; root of context hierarchy
+2018-07-20 11:46:38.890  INFO 10532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 11:46:43.683  INFO 10532 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.251 seconds (JVM running for 9.303)
+2018-07-20 11:46:43.750  INFO 10532 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 11:46:43.755  INFO 10532 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 11:46:47.539  INFO 10532 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720114647"}
+2018-07-20 11:46:47.718  INFO 10532 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Fri Jul 20 11:46:37 CST 2018]; root of context hierarchy
+2018-07-20 13:46:52.238  INFO 21312 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21312 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 13:46:52.242 DEBUG 21312 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 13:46:52.243  INFO 21312 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 13:46:52.308  INFO 21312 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 13:46:52 CST 2018]; root of context hierarchy
+2018-07-20 13:46:53.799  INFO 21312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 13:46:59.515  INFO 21312 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.124 seconds (JVM running for 10.539)
+2018-07-20 13:46:59.598  INFO 21312 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 13:46:59.602  INFO 21312 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 13:47:02.912  INFO 21312 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 13:47:03.025  INFO 21312 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 13:46:52 CST 2018]; root of context hierarchy
+2018-07-20 13:52:40.068  INFO 15800 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 15800 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 13:52:40.075 DEBUG 15800 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 13:52:40.076  INFO 15800 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 13:52:40.263  INFO 15800 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 13:52:40 CST 2018]; root of context hierarchy
+2018-07-20 13:52:41.733  INFO 15800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 13:52:48.654  INFO 15800 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.717 seconds (JVM running for 11.788)
+2018-07-20 13:52:48.724  INFO 15800 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 13:52:48.729  INFO 15800 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 13:52:49.926  INFO 15800 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 13:52:40 CST 2018]; root of context hierarchy
+2018-07-20 13:55:36.093  INFO 20364 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 20364 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 13:55:36.103 DEBUG 20364 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 13:55:36.104  INFO 20364 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 13:55:36.203  INFO 20364 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b00f608: startup date [Fri Jul 20 13:55:36 CST 2018]; root of context hierarchy
+2018-07-20 13:55:37.830  INFO 20364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 13:55:45.004  INFO 20364 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.923 seconds (JVM running for 12.767)
+2018-07-20 13:55:45.135  INFO 20364 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 13:55:45.159  INFO 20364 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 13:55:50.542  INFO 20364 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b00f608: startup date [Fri Jul 20 13:55:36 CST 2018]; root of context hierarchy
+2018-07-20 14:03:27.140  INFO 15592 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 15592 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 14:03:27.144 DEBUG 15592 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 14:03:27.145  INFO 15592 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 14:03:27.226  INFO 15592 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:03:27 CST 2018]; root of context hierarchy
+2018-07-20 14:03:28.767  INFO 15592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 14:03:35.143  INFO 15592 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.077 seconds (JVM running for 11.692)
+2018-07-20 14:03:35.243  INFO 15592 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 14:03:35.251  INFO 15592 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 14:03:40.566  INFO 15592 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:03:27 CST 2018]; root of context hierarchy
+2018-07-20 14:05:41.264  INFO 19680 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 19680 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 14:05:41.268 DEBUG 19680 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 14:05:41.269  INFO 19680 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 14:05:41.346  INFO 19680 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:05:41 CST 2018]; root of context hierarchy
+2018-07-20 14:05:42.998  INFO 19680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 14:05:50.932  INFO 19680 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.613 seconds (JVM running for 13.379)
+2018-07-20 14:05:51.059  INFO 19680 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 14:05:51.069  INFO 19680 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 14:05:56.378  INFO 19680 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:05:41 CST 2018]; root of context hierarchy
+2018-07-20 14:07:46.103  INFO 14708 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 14708 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 14:07:46.108 DEBUG 14708 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 14:07:46.109  INFO 14708 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 14:07:46.230  INFO 14708 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:07:46 CST 2018]; root of context hierarchy
+2018-07-20 14:07:47.939  INFO 14708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 14:07:55.034  INFO 14708 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.441 seconds (JVM running for 12.574)
+2018-07-20 14:07:55.120  INFO 14708 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 14:07:55.131  INFO 14708 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 14:07:57.942  INFO 14708 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 14:07:58.297  INFO 14708 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:07:46 CST 2018]; root of context hierarchy
+2018-07-20 14:23:41.333  INFO 10616 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10616 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 14:23:41.337 DEBUG 10616 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 14:23:41.340  INFO 10616 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 14:23:41.407  INFO 10616 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:23:41 CST 2018]; root of context hierarchy
+2018-07-20 14:23:43.063  INFO 10616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 14:23:49.397  INFO 10616 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.07 seconds (JVM running for 11.457)
+2018-07-20 14:23:49.470  INFO 10616 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 14:23:49.475  INFO 10616 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 14:23:54.706  INFO 10616 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:23:41 CST 2018]; root of context hierarchy
+2018-07-20 14:30:14.866  INFO 10928 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10928 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 14:30:14.871 DEBUG 10928 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 14:30:14.874  INFO 10928 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 14:30:14.954  INFO 10928 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:30:14 CST 2018]; root of context hierarchy
+2018-07-20 14:30:16.809  INFO 10928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 14:30:24.364  INFO 10928 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.582 seconds (JVM running for 13.291)
+2018-07-20 14:30:24.462  INFO 10928 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 14:30:24.467  INFO 10928 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 14:30:27.418  INFO 10928 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 14:30:27.562  INFO 10928 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 14:30:14 CST 2018]; root of context hierarchy
+2018-07-20 15:24:02.637  INFO 17080 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 17080 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 15:24:02.644 DEBUG 17080 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 15:24:02.646  INFO 17080 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 15:24:02.742  INFO 17080 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 15:24:02 CST 2018]; root of context hierarchy
+2018-07-20 15:24:04.484  INFO 17080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 15:24:10.765  INFO 17080 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.718 seconds (JVM running for 12.01)
+2018-07-20 15:24:10.858  INFO 17080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 15:24:10.864  INFO 17080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 15:24:14.024  INFO 17080 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 15:24:14.123  INFO 17080 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 15:24:02 CST 2018]; root of context hierarchy
+2018-07-20 15:32:55.923  INFO 7076 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 7076 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 15:32:55.931 DEBUG 7076 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 15:32:55.935  INFO 7076 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 15:32:55.993  INFO 7076 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 15:32:55 CST 2018]; root of context hierarchy
+2018-07-20 15:32:57.731  INFO 7076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 15:33:04.447  INFO 7076 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.455 seconds (JVM running for 12.075)
+2018-07-20 15:33:04.524  INFO 7076 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 15:33:04.529  INFO 7076 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 15:33:06.331  INFO 7076 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:null
+2018-07-20 15:33:06.385  INFO 7076 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 15:32:55 CST 2018]; root of context hierarchy
+2018-07-20 15:38:59.275  INFO 21492 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21492 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 15:38:59.284 DEBUG 21492 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 15:38:59.287  INFO 21492 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 15:38:59.444  INFO 21492 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 15:38:59 CST 2018]; root of context hierarchy
+2018-07-20 15:39:03.641  INFO 21492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 15:39:13.027  INFO 21492 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 15.372 seconds (JVM running for 20.628)
+2018-07-20 15:39:13.185  INFO 21492 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 15:39:13.195  INFO 21492 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 15:39:14.096  INFO 21492 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:null
+2018-07-20 15:39:14.222  INFO 21492 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 15:38:59 CST 2018]; root of context hierarchy
+2018-07-20 16:00:31.262  INFO 5484 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 5484 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:00:31.266 DEBUG 5484 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:00:31.269  INFO 5484 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:00:31.343  INFO 5484 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 16:00:31 CST 2018]; root of context hierarchy
+2018-07-20 16:00:33.065  INFO 5484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:00:40.203  INFO 5484 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.389 seconds (JVM running for 12.843)
+2018-07-20 16:00:40.301  INFO 5484 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:00:40.306  INFO 5484 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:00:43.497  INFO 5484 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 16:00:43.582  INFO 5484 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 16:00:31 CST 2018]; root of context hierarchy
+2018-07-20 16:04:46.495  INFO 16912 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 16912 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:04:46.500 DEBUG 16912 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:04:46.501  INFO 16912 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:04:46.558  INFO 16912 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:04:46 CST 2018]; root of context hierarchy
+2018-07-20 16:04:48.206  INFO 16912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:04:55.972  INFO 16912 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.606 seconds (JVM running for 13.0)
+2018-07-20 16:04:56.134  INFO 16912 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:04:56.141  INFO 16912 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:04:58.917  INFO 16912 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 16:04:58.955  INFO 16912 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:04:46 CST 2018]; root of context hierarchy
+2018-07-20 16:05:45.446  INFO 8588 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 8588 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:05:45.451 DEBUG 8588 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:05:45.452  INFO 8588 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:05:45.528  INFO 8588 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:05:45 CST 2018]; root of context hierarchy
+2018-07-20 16:05:47.117  INFO 8588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:05:53.741  INFO 8588 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.481 seconds (JVM running for 11.811)
+2018-07-20 16:05:53.854  INFO 8588 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:05:53.860  INFO 8588 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:05:54.199  INFO 8588 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 16:05:54.230  INFO 8588 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:05:45 CST 2018]; root of context hierarchy
+2018-07-20 16:09:01.765  INFO 15472 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 15472 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:09:01.770 DEBUG 15472 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:09:01.771  INFO 15472 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:09:01.837  INFO 15472 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:09:01 CST 2018]; root of context hierarchy
+2018-07-20 16:09:03.491  INFO 15472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:09:09.992  INFO 15472 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.441 seconds (JVM running for 11.824)
+2018-07-20 16:09:10.071  INFO 15472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:09:10.076  INFO 15472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:09:12.674  INFO 15472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 16:09:12.760  INFO 15472 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:09:01 CST 2018]; root of context hierarchy
+2018-07-20 16:13:09.439  INFO 7896 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 7896 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:13:09.445 DEBUG 7896 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:13:09.446  INFO 7896 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:13:09.553  INFO 7896 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:13:09 CST 2018]; root of context hierarchy
+2018-07-20 16:13:11.379  INFO 7896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:13:18.007  INFO 7896 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.017 seconds (JVM running for 12.26)
+2018-07-20 16:13:18.111  INFO 7896 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:13:18.116  INFO 7896 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:13:20.312  INFO 7896 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-20 16:13:20.350  INFO 7896 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:13:09 CST 2018]; root of context hierarchy
+2018-07-20 16:22:05.304  INFO 852 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 852 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:22:05.312 DEBUG 852 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:22:05.312  INFO 852 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:22:05.408  INFO 852 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 16:22:05 CST 2018]; root of context hierarchy
+2018-07-20 16:22:06.963  INFO 852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:22:13.362  INFO 852 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.138 seconds (JVM running for 11.655)
+2018-07-20 16:22:13.451  INFO 852 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:22:13.456  INFO 852 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:22:16.952  INFO 852 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:null
+2018-07-20 16:22:16.971  INFO 852 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 16:22:05 CST 2018]; root of context hierarchy
+2018-07-20 16:35:59.492  INFO 18972 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 18972 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:35:59.497 DEBUG 18972 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:35:59.498  INFO 18972 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:35:59.649  INFO 18972 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:35:59 CST 2018]; root of context hierarchy
+2018-07-20 16:36:01.205  INFO 18972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:36:07.302  INFO 18972 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.11 seconds (JVM running for 11.173)
+2018-07-20 16:36:07.387  INFO 18972 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 16:36:07.392  INFO 18972 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:36:10.716  INFO 18972 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"[{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"deb92237658541428b18f767474f8ba0\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"e876e54e21584e089e4b1f05c410e350\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"cooperationTime\":\"cooperationTime\",\"del\":0,\"herbsName\":\"herbsName\",\"hospitalName\":\"hospitalName\",\"id\":\"id\",\"supplierName\":\"supplierName\",\"version\":0}]","code":"0","timestamp":"20180720163610"}
+2018-07-20 16:36:10.743  INFO 18972 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:35:59 CST 2018]; root of context hierarchy
+2018-07-20 16:52:13.953  INFO 6520 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 6520 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:52:13.959 DEBUG 6520 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:52:13.960  INFO 6520 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:52:14.034  INFO 6520 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:52:14 CST 2018]; root of context hierarchy
+2018-07-20 16:52:15.894  INFO 6520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:52:23.307  INFO 6520 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 11.082 seconds (JVM running for 13.469)
+2018-07-20 16:52:23.404  INFO 6520 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/updateDevice
+2018-07-20 16:52:23.410  INFO 6520 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:52:26.001  INFO 6520 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720165225"}
+2018-07-20 16:52:26.043  INFO 6520 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:52:14 CST 2018]; root of context hierarchy
+2018-07-20 16:53:34.715  INFO 20444 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 20444 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:53:34.722 DEBUG 20444 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:53:34.722  INFO 20444 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:53:34.816  INFO 20444 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:53:34 CST 2018]; root of context hierarchy
+2018-07-20 16:53:36.310  INFO 20444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:53:42.773  INFO 20444 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.198 seconds (JVM running for 11.899)
+2018-07-20 16:53:42.867  INFO 20444 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 16:53:42.871  INFO 20444 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:53:43.430  INFO 20444 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:null
+2018-07-20 16:53:43.455  INFO 20444 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:53:34 CST 2018]; root of context hierarchy
+2018-07-20 16:58:29.729  INFO 20172 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 20172 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 16:58:29.735 DEBUG 20172 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 16:58:29.736  INFO 20172 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 16:58:29.810  INFO 20172 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:58:29 CST 2018]; root of context hierarchy
+2018-07-20 16:58:31.421  INFO 20172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 16:58:37.756  INFO 20172 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.034 seconds (JVM running for 11.427)
+2018-07-20 16:58:37.932  INFO 20172 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/add
+2018-07-20 16:58:37.984  INFO 20172 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 16:58:40.730  INFO 20172 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"添加成功","code":"0","timestamp":"20180720165840"}
+2018-07-20 16:58:40.802  INFO 20172 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 16:58:29 CST 2018]; root of context hierarchy
+2018-07-20 17:00:07.603  INFO 21124 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21124 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 17:00:07.607 DEBUG 21124 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 17:00:07.608  INFO 21124 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 17:00:07.708  INFO 21124 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 17:00:07 CST 2018]; root of context hierarchy
+2018-07-20 17:00:09.704  INFO 21124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 17:00:16.031  INFO 21124 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.905 seconds (JVM running for 12.465)
+2018-07-20 17:00:16.125  INFO 21124 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/updateDevice
+2018-07-20 17:00:16.130  INFO 21124 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 17:00:16.402  INFO 21124 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180720170016"}
+2018-07-20 17:00:16.420  INFO 21124 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 17:00:07 CST 2018]; root of context hierarchy
+2018-07-20 17:13:42.968  INFO 5176 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 5176 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 17:13:42.976 DEBUG 5176 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 17:13:42.977  INFO 5176 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 17:13:43.069  INFO 5176 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 17:13:43 CST 2018]; root of context hierarchy
+2018-07-20 17:13:44.635  INFO 5176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 17:13:51.043  INFO 5176 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.449 seconds (JVM running for 11.48)
+2018-07-20 17:13:51.118  INFO 5176 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/updateDevice
+2018-07-20 17:13:51.123  INFO 5176 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 17:13:53.647  INFO 5176 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"添加成功","code":"0","timestamp":"20180720171353"}
+2018-07-20 17:13:53.711  INFO 5176 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 17:13:43 CST 2018]; root of context hierarchy
+2018-07-20 17:15:40.882  INFO 10876 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10876 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 17:15:40.886 DEBUG 10876 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 17:15:40.887  INFO 10876 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 17:15:40.966  INFO 10876 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 17:15:40 CST 2018]; root of context hierarchy
+2018-07-20 17:15:42.852  INFO 10876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 17:15:49.554  INFO 10876 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.444 seconds (JVM running for 12.947)
+2018-07-20 17:15:49.645  INFO 10876 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/updateDevice
+2018-07-20 17:15:49.657  INFO 10876 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 17:15:49.863  INFO 10876 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"添加成功","code":"0","timestamp":"20180720171549"}
+2018-07-20 17:15:49.880  INFO 10876 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b2a01d4: startup date [Fri Jul 20 17:15:40 CST 2018]; root of context hierarchy
+2018-07-20 17:20:50.155  INFO 14468 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 14468 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 17:20:50.159 DEBUG 14468 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 17:20:50.161  INFO 14468 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 17:20:50.256  INFO 14468 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 17:20:50 CST 2018]; root of context hierarchy
+2018-07-20 17:20:51.729  INFO 14468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 17:20:56.870  INFO 14468 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.975 seconds (JVM running for 9.76)
+2018-07-20 17:20:56.938  INFO 14468 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/updateDevice
+2018-07-20 17:20:56.942  INFO 14468 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 17:20:59.314  INFO 14468 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"添加成功","code":"0","timestamp":"20180720172059"}
+2018-07-20 17:20:59.326  INFO 14468 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Fri Jul 20 17:20:50 CST 2018]; root of context hierarchy
+2018-07-20 17:28:53.113  INFO 16568 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 16568 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-20 17:28:53.118 DEBUG 16568 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-20 17:28:53.119  INFO 16568 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-20 17:28:53.190  INFO 16568 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 17:28:53 CST 2018]; root of context hierarchy
+2018-07-20 17:28:54.768  INFO 16568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-20 17:29:00.997  INFO 16568 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.951 seconds (JVM running for 11.394)
+2018-07-20 17:29:01.076  INFO 16568 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-20 17:29:01.084  INFO 16568 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-20 17:29:01.637  INFO 16568 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"[{\"del\":0,\"herbsName\":\"wsjtest\",\"id\":\"5cc65d7add114c809369903b27be88c7\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"d4aec18e460d475c84ccda895a9d8e4d\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"deb92237658541428b18f767474f8ba0\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"e876e54e21584e089e4b1f05c410e350\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"cooperationTime\":\"cooperationTime\",\"del\":0,\"herbsName\":\"herbsName\",\"hospitalName\":\"hospitalName\",\"id\":\"id\",\"supplierName\":\"supplierName\",\"version\":0}]","code":"0","timestamp":"20180720172901"}
+2018-07-20 17:29:01.687  INFO 16568 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Fri Jul 20 17:28:53 CST 2018]; root of context hierarchy
+2018-07-23 11:51:20.837  INFO 21624 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 21624 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-23 11:51:20.843 DEBUG 21624 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-23 11:51:20.845  INFO 21624 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-23 11:51:20.987  INFO 21624 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Mon Jul 23 11:51:20 CST 2018]; root of context hierarchy
+2018-07-23 11:51:22.755  INFO 21624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-23 11:51:30.086  INFO 21624 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.925 seconds (JVM running for 13.317)
+2018-07-23 11:51:30.174  INFO 21624 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://47.95.238.222:8080/api/v1/aaa/selectAll
+2018-07-23 11:51:30.179  INFO 21624 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-23 11:51:32.886  INFO 21624 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"FAIL","message":"请联系管理员","timestamp":"20180723115129"}
+2018-07-23 11:51:32.903  INFO 21624 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@434a63ab: startup date [Mon Jul 23 11:51:20 CST 2018]; root of context hierarchy
+2018-07-30 23:21:24.185  INFO 13872 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 13872 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:21:24.233 DEBUG 13872 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:21:24.234  INFO 13872 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:21:24.298  INFO 13872 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:21:24 CST 2018]; root of context hierarchy
+2018-07-30 23:21:26.282  INFO 13872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:21:35.243  INFO 13872 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 11.892 seconds (JVM running for 15.183)
+2018-07-30 23:21:35.395  INFO 13872 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:21:35.400  INFO 13872 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:21:38.154  INFO 13872 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-30 23:21:38.216  INFO 13872 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:21:24 CST 2018]; root of context hierarchy
+2018-07-30 23:23:59.711  INFO 16388 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 16388 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:23:59.715 DEBUG 16388 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:23:59.716  INFO 16388 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:23:59.816  INFO 16388 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49872d67: startup date [Mon Jul 30 23:23:59 CST 2018]; root of context hierarchy
+2018-07-30 23:24:01.530  INFO 16388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:24:07.622  INFO 16388 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.048 seconds (JVM running for 11.733)
+2018-07-30 23:24:07.697  INFO 16388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:24:07.702  INFO 16388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:24:08.019  INFO 16388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{}
+2018-07-30 23:24:08.036  INFO 16388 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@49872d67: startup date [Mon Jul 30 23:23:59 CST 2018]; root of context hierarchy
+2018-07-30 23:48:53.423  INFO 4728 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 4728 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:48:53.427 DEBUG 4728 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:48:53.428  INFO 4728 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:48:53.506  INFO 4728 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:48:53 CST 2018]; root of context hierarchy
+2018-07-30 23:48:55.220  INFO 4728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:49:02.863  INFO 4728 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 10.578 seconds (JVM running for 13.242)
+2018-07-30 23:49:02.956  INFO 4728 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:49:02.962  INFO 4728 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:49:04.165  INFO 4728 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-30 23:49:04.179  INFO 4728 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:48:53 CST 2018]; root of context hierarchy
+2018-07-30 23:50:54.543  INFO 1452 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 1452 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:50:54.549 DEBUG 1452 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:50:54.551  INFO 1452 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:50:54.608  INFO 1452 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Mon Jul 30 23:50:54 CST 2018]; root of context hierarchy
+2018-07-30 23:50:55.987  INFO 1452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:51:01.273  INFO 1452 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 7.781 seconds (JVM running for 10.006)
+2018-07-30 23:51:01.351  INFO 1452 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:51:01.356  INFO 1452 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:51:01.581  INFO 1452 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-30 23:51:01.594  INFO 1452 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b03b9fe: startup date [Mon Jul 30 23:50:54 CST 2018]; root of context hierarchy
+2018-07-30 23:54:47.213  INFO 18824 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 18824 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:54:47.217 DEBUG 18824 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:54:47.217  INFO 18824 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:54:47.280  INFO 18824 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:54:47 CST 2018]; root of context hierarchy
+2018-07-30 23:54:48.839  INFO 18824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:54:55.122  INFO 18824 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.321 seconds (JVM running for 11.784)
+2018-07-30 23:54:55.199  INFO 18824 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:54:55.204  INFO 18824 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:55:00.533  INFO 18824 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:54:47 CST 2018]; root of context hierarchy
+2018-07-30 23:57:04.716  INFO 4184 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 4184 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:57:04.721 DEBUG 4184 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:57:04.722  INFO 4184 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:57:04.787  INFO 4184 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:57:04 CST 2018]; root of context hierarchy
+2018-07-30 23:57:06.628  INFO 4184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:57:12.931  INFO 4184 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.326 seconds (JVM running for 12.133)
+2018-07-30 23:57:13.043  INFO 4184 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:57:13.048  INFO 4184 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:57:18.333  INFO 4184 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:57:04 CST 2018]; root of context hierarchy
+2018-07-30 23:58:00.567  INFO 10356 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10356 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-30 23:58:00.571 DEBUG 10356 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-30 23:58:00.572  INFO 10356 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-30 23:58:00.654  INFO 10356 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:58:00 CST 2018]; root of context hierarchy
+2018-07-30 23:58:02.691  INFO 10356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-30 23:58:08.653  INFO 10356 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.332 seconds (JVM running for 12.076)
+2018-07-30 23:58:08.733  INFO 10356 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-30 23:58:08.738  INFO 10356 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-30 23:58:09.041  INFO 10356 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-30 23:58:09.060  INFO 10356 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Mon Jul 30 23:58:00 CST 2018]; root of context hierarchy
+2018-07-31 00:00:47.950  INFO 18408 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 18408 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-31 00:00:47.999 DEBUG 18408 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-31 00:00:48.002  INFO 18408 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-31 00:00:48.079  INFO 18408 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:00:48 CST 2018]; root of context hierarchy
+2018-07-31 00:00:49.615  INFO 18408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-31 00:00:55.822  INFO 18408 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.657 seconds (JVM running for 12.162)
+2018-07-31 00:00:55.888  INFO 18408 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-31 00:00:55.893  INFO 18408 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-31 00:00:56.163  INFO 18408 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-31 00:00:56.178  INFO 18408 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:00:48 CST 2018]; root of context hierarchy
+2018-07-31 00:02:04.318  INFO 22472 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 22472 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-31 00:02:04.322 DEBUG 22472 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-31 00:02:04.323  INFO 22472 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-31 00:02:04.398  INFO 22472 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Tue Jul 31 00:02:04 CST 2018]; root of context hierarchy
+2018-07-31 00:02:05.912  INFO 22472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-31 00:02:11.636  INFO 22472 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.239 seconds (JVM running for 10.683)
+2018-07-31 00:02:11.874  INFO 22472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-31 00:02:11.880  INFO 22472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-31 00:02:14.777  INFO 22472 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-31 00:02:14.832  INFO 22472 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303b57: startup date [Tue Jul 31 00:02:04 CST 2018]; root of context hierarchy
+2018-07-31 00:06:34.553  INFO 10308 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 10308 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-31 00:06:34.569 DEBUG 10308 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-31 00:06:34.571  INFO 10308 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-31 00:06:34.658  INFO 10308 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:06:34 CST 2018]; root of context hierarchy
+2018-07-31 00:06:36.230  INFO 10308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-31 00:06:42.747  INFO 10308 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 9.653 seconds (JVM running for 11.655)
+2018-07-31 00:06:42.877  INFO 10308 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-31 00:06:42.896  INFO 10308 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-31 00:06:43.376  INFO 10308 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-31 00:06:43.413  INFO 10308 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:06:34 CST 2018]; root of context hierarchy
+2018-07-31 00:07:33.337  INFO 22388 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 22388 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-31 00:07:33.342 DEBUG 22388 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-31 00:07:33.343  INFO 22388 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-31 00:07:33.426  INFO 22388 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:07:33 CST 2018]; root of context hierarchy
+2018-07-31 00:07:34.935  INFO 22388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-31 00:07:40.685  INFO 22388 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.703 seconds (JVM running for 10.936)
+2018-07-31 00:07:40.777  INFO 22388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-31 00:07:40.781  INFO 22388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-31 00:07:43.877  INFO 22388 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"code":"0"}
+2018-07-31 00:07:43.902  INFO 22388 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 00:07:33 CST 2018]; root of context hierarchy
+2018-07-31 09:51:28.935  INFO 14352 --- [main] com.sk.p2p.TestDeviceService             : Starting TestDeviceService on DESKTOP-4L17K1N with PID 14352 (started by wsj in C:\Users\wsj\Desktop\mytools\git_home\beihang\p2p-camera)
+2018-07-31 09:51:28.940 DEBUG 14352 --- [main] com.sk.p2p.TestDeviceService             : Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2018-07-31 09:51:28.941  INFO 14352 --- [main] com.sk.p2p.TestDeviceService             : The following profiles are active: test
+2018-07-31 09:51:29.026  INFO 14352 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 09:51:29 CST 2018]; root of context hierarchy
+2018-07-31 09:51:30.501  INFO 14352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-07-31 09:51:36.329  INFO 14352 --- [main] com.sk.p2p.TestDeviceService             : Started TestDeviceService in 8.489 seconds (JVM running for 11.232)
+2018-07-31 09:51:36.406  INFO 14352 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,url:http://127.0.0.1:8080/api/v1/aaa/selectAll
+2018-07-31 09:51:36.411  INFO 14352 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,request:deviceSerial=117091953&validateCode=XEQBOK&id=5cc65d7add114c809369903b27be88c7&hospitalName=wsjtest&accessToken=at.082swmc2495iij5sc166t9kwa96ut525-2rsittod5y-0uronzl-iqj9gwg94
+2018-07-31 09:51:39.384  INFO 14352 --- [main] com.sk.base.utils.HttpUtils              : ThreadId:1,response:{"state":"SUCCESS","message":"[{\"del\":0,\"herbsName\":\"wsjtest\",\"id\":\"5cc65d7add114c809369903b27be88c7\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"d4aec18e460d475c84ccda895a9d8e4d\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"deb92237658541428b18f767474f8ba0\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"del\":0,\"hospitalName\":\"117091953\",\"id\":\"e876e54e21584e089e4b1f05c410e350\",\"supplierName\":\"XEQBOK\",\"version\":0},{\"cooperationTime\":\"cooperationTime\",\"del\":0,\"herbsName\":\"herbsName\",\"hospitalName\":\"hospitalName\",\"id\":\"id\",\"supplierName\":\"supplierName\",\"version\":0}]","code":"0","timestamp":"20180731095139"}
+2018-07-31 09:51:39.445  INFO 14352 --- [Thread-5] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3a6f2de3: startup date [Tue Jul 31 09:51:29 CST 2018]; root of context hierarchy

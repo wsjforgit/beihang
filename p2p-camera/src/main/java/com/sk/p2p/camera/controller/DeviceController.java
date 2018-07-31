@@ -61,6 +61,7 @@ public class DeviceController extends BaseController {
         List<Device> ListDevice = deviceService.listDevice();
         if(ListDevice!=null&&ListDevice.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListDevice);
+            logger.info(backMessage);
             return new Result(ResultState.SUCCESS, backMessage);
         }
         return new Result(ResultState.SUCCESS, "失败");
