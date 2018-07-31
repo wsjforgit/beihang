@@ -8,13 +8,7 @@ import java.util.List;
  * Created by wsj on 2018/7/12.
  */
 public interface HospitalEntityService extends BaseService<HospitalEntity> {
+    HospitalEntity findById(String id);
 
-    /**
-     * 添加设备
-     *  @param circleId     社群id
-     * @param deviceSerial 设备序列号
-     * @param validateCode 设备验证码
-     */
-    List<HospitalEntity> findAllHospital(String circleId, String deviceSerial, String validateCode);
 
 }

@@ -2,5 +2,35 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sk.p2p.camera.mapper.HospitalEntityMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.HospitalEntity">
+                <id column="id" property="id" jdbcType="VARCHAR"/>
+                <result column="hospitalName" property="hospitalName" jdbcType="VARCHAR"/>
+                <result column="hospitalNum" property="hospitalNum" jdbcType="VARCHAR"/>
+                <result column="hospitalUrl" property="hospitalUrl" jdbcType="VARCHAR"/>
+                <result column="hospitalCall" property="hospitalCall" jdbcType="VARCHAR"/>
+                <result column="hospitalAbstract" property="hospitalAbstract" jdbcType="VARCHAR"/>
+                <result column="hospitalTeam" property="hospitalTeam" jdbcType="VARCHAR"/>
+                <result column="crateTime" property="crateTime" jdbcType="VARCHAR"/>
+                <result column="crateMan" property="crateMan" jdbcType="VARCHAR"/>
+                <result column="updateTime" property="updateTime" jdbcType="VARCHAR"/>
+                <result column="updateMan" property="updateMan" jdbcType="VARCHAR"/>
+        </resultMap>
+        <insert id="insert" parameterType="com.sk.p2p.camera.entity.Device">
+                INSERT INTO hospital (id,hospitalName,hospitalNum,hospitalUrl,hospitalCall,hospitalAbstract,hospitalTeam,crateTime,crateMan,updateTime,updateMan)
+                VALUES(#{id,jdbcType=VARCHAR},#{hospitalName,jdbcType=VARCHAR},#{hospitalNum,jdbcType=VARCHAR},#{hospitalUrl,jdbcType=VARCHAR},#{hospitalCall,jdbcType=VARCHAR},#{hospitalAbstract,jdbcType=VARCHAR},#{hospitalTeam,jdbcType=VARCHAR},#{crateTime,jdbcType=VARCHAR},#{crateMan,jdbcType=VARCHAR},#{updateTime,jdbcType=VARCHAR},#{updateMan,jdbcType=VARCHAR});
+        </insert>
+
+        <update id="update" >
+                UPDATE hospital SET hospitalName=#{hospitalName},hospitalNum=#{hospitalNum},hospitalUrl=#{hospitalUrl},hospitalCall=#{hospitalCall},hospitalAbstract=#{hospitalAbstract},hospitalTeam=#{hospitalTeam},crateTime=#{crateTime},crateMan=#{crateMan},updateTime=#{updateTime},updateMan=#{updateMan}
+                where id=#{id}
+        </update>
+
+        <select id="listDevice" resultMap="BaseResultMap">
+                SELECT * FROM hospital;
+        </select>
+
+        <select id="selectById" resultMap="BaseResultMap">
+                SELECT * FROM hospital t where t.id=#{id,jdbcType=VARCHAR};
+        </select>
 
 </mapper>
