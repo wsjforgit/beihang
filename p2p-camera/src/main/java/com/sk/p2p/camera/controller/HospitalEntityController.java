@@ -18,7 +18,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/aaa")
+@RequestMapping("/api/v1/Hospital")
 public class HospitalEntityController extends BaseController {
     private final Logger logger = Logger.getLogger(this.getClass());
 

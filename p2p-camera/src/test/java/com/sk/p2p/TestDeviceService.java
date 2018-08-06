@@ -32,7 +32,8 @@ public class TestDeviceService {
         params.put("hospitalName", "wsjtest");
 //        String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/add", params);
 //        String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/updateDevice", params);
-        String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/selectAll", params);
+//        String post = bean.post("http://127.0.0.1:8080/api/v1/aaa/selectAll", params);
+        String post = bean.post("http://47.95.238.222:8080/api/v1/aaa/selectAll", params);
         System.out.println(post);
 
 
