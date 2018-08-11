@@ -3,9 +3,7 @@ package com.sk.p2p.camera.service.impl;
 import com.sk.base.service.impl.BaseServiceImpl;
 import com.sk.base.utils.HttpUtils;
 import com.sk.p2p.camera.entity.Device;
-import com.sk.p2p.camera.mapper.CircleDeviceMapper;
 import com.sk.p2p.camera.mapper.DeviceMapper;
-import com.sk.p2p.camera.service.CircleDeviceService;
 import com.sk.p2p.camera.service.DeviceService;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,11 +23,6 @@ public class DeviceServiceImpl extends BaseServiceImpl<Device, DeviceMapper> imp
     @Autowired
     RedisTemplate<String, String> redisTemplate;
 
-    @Autowired
-    CircleDeviceMapper circleDeviceMapper;
-
-    @Autowired
-    CircleDeviceService circleDeviceService;
     @Autowired
     HttpUtils httpUtils;
     @Autowired

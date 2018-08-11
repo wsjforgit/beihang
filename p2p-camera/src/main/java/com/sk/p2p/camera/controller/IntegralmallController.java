@@ -5,8 +5,9 @@ import com.sk.base.commons.ResultState;
 import com.sk.base.controller.BaseController;
 import com.sk.base.utils.JsonFormatOutUtil;
 import com.sk.p2p.camera.entity.HospitalEntity;
-import com.sk.p2p.camera.service.DeviceService;
+import com.sk.p2p.camera.entity.Integralmall;
 import com.sk.p2p.camera.service.HospitalEntityService;
+import com.sk.p2p.camera.service.IntegralmallService;
 import org.apache.log4j.Logger;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,12 +22,12 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/hospital")
-public class HospitalEntityController extends BaseController {
+@RequestMapping("/api/v1/integralmall")
+public class IntegralmallController extends BaseController {
     private final Logger logger = Logger.getLogger(this.getClass());
 
     @Autowired
-    private HospitalEntityService hospitalEntityService;
+    private IntegralmallService integralmallService;
 
 
     /**
@@ -37,10 +38,10 @@ public class HospitalEntityController extends BaseController {
      */
     @RequestMapping(value = "/findById", method = RequestMethod.POST)
     public Result findById(@NotEmpty(message = "id不能为空") String id) {
-        HospitalEntity hospitalEntity = hospitalEntityService.findById(id);
+        Integralmall integralmall = integralmallService.findById(id);
         String backMessage ="";
-        if(hospitalEntity!=null){
-            backMessage = JsonFormatOutUtil.toJSONString(hospitalEntity);
+        if(integralmall!=null){
+            backMessage = JsonFormatOutUtil.toJSONString(integralmall);
             try {
                 backMessage= URLEncoder.encode(backMessage, "utf-8");
             } catch (UnsupportedEncodingException e) {
@@ -59,7 +60,7 @@ public class HospitalEntityController extends BaseController {
      */
     @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
     public Result selectAll() {
-        List<HospitalEntity> ListBack = hospitalEntityService.findAll();
+        List<Integralmall> ListBack = integralmallService.findAll();
         if(ListBack!=null&&ListBack.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListBack);
             try {

@@ -8,7 +8,13 @@ import java.util.List;
  * Created by wsj on 2018/7/12.
  */
 public interface HospitalEntityService extends BaseService<HospitalEntity> {
+    //根据id查询
     HospitalEntity findById(String id);
+
+    //查询所有
+//    List<HospitalEntity> findAll();
+
+
 
 
 }

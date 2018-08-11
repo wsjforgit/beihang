@@ -25,7 +25,7 @@
                 where id=#{id}
         </update>
 
-        <select id="listDevice" resultMap="BaseResultMap">
+        <select id="selectAll" resultMap="BaseResultMap">
                 SELECT * FROM hospital;
         </select>
 

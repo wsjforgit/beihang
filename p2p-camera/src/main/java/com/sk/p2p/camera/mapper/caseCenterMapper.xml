@@ -1,8 +1,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.sk.p2p.camera.mapper.HospitalEntityMapper">
-        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.Device">
+<mapper namespace="com.sk.p2p.camera.mapper.CaseCenterMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.CaseCenter">
                 <id column="id" property="id" jdbcType="VARCHAR"/>
                 <result column="caseName" property="caseName" jdbcType="VARCHAR"/>
                 <result column="caseNum" property="caseNum" jdbcType="VARCHAR"/>
@@ -15,5 +15,13 @@
                 <result column="linkUser" property="linkUser" jdbcType="VARCHAR"/>
                 <result column="linkhospital" property="linkhospital" jdbcType="VARCHAR"/>
         </resultMap>
+
+        <select id="selectAll" resultMap="BaseResultMap">
+                SELECT * FROM caseCenter;
+        </select>
+
+        <select id="selectById" resultMap="BaseResultMap">
+                SELECT * FROM caseCenter t where t.id=#{id,jdbcType=VARCHAR};
+        </select>
 
 </mapper>

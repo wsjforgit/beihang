@@ -4,9 +4,10 @@ import com.sk.base.commons.Result;
 import com.sk.base.commons.ResultState;
 import com.sk.base.controller.BaseController;
 import com.sk.base.utils.JsonFormatOutUtil;
-import com.sk.p2p.camera.entity.HospitalEntity;
-import com.sk.p2p.camera.service.DeviceService;
-import com.sk.p2p.camera.service.HospitalEntityService;
+import com.sk.p2p.camera.entity.CaseCenter;
+import com.sk.p2p.camera.entity.Integralmall;
+import com.sk.p2p.camera.service.CaseCenterService;
+import com.sk.p2p.camera.service.IntegralmallService;
 import org.apache.log4j.Logger;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,18 +16,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/hospital")
-public class HospitalEntityController extends BaseController {
+@RequestMapping("/api/v1/caseCenter")
+public class CaseCenterController extends BaseController {
     private final Logger logger = Logger.getLogger(this.getClass());
 
     @Autowired
-    private HospitalEntityService hospitalEntityService;
+    private CaseCenterService caseCenterService;
 
 
     /**
@@ -37,10 +37,10 @@ public class HospitalEntityController extends BaseController {
      */
     @RequestMapping(value = "/findById", method = RequestMethod.POST)
     public Result findById(@NotEmpty(message = "id不能为空") String id) {
-        HospitalEntity hospitalEntity = hospitalEntityService.findById(id);
+        CaseCenter bakcOne = caseCenterService.findById(id);
         String backMessage ="";
-        if(hospitalEntity!=null){
-            backMessage = JsonFormatOutUtil.toJSONString(hospitalEntity);
+        if(bakcOne!=null){
+            backMessage = JsonFormatOutUtil.toJSONString(bakcOne);
             try {
                 backMessage= URLEncoder.encode(backMessage, "utf-8");
             } catch (UnsupportedEncodingException e) {
@@ -59,7 +59,7 @@ public class HospitalEntityController extends BaseController {
      */
     @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
     public Result selectAll() {
-        List<HospitalEntity> ListBack = hospitalEntityService.findAll();
+        List<CaseCenter> ListBack = caseCenterService.findAll();
         if(ListBack!=null&&ListBack.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListBack);
             try {

@@ -1,0 +1,51 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sk.p2p.camera.mapper.IntegralmallMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.Integralmall">
+                <id column="id" property="id" jdbcType="VARCHAR"/>
+                <result column="userName" property="userName" jdbcType="VARCHAR"/>
+                <result column="signNum" property="signNum" jdbcType="VARCHAR"/>
+                <result column="integral" property="integral" jdbcType="VARCHAR"/>
+                <result column="exchangeRecord" property="exchangeRecord" jdbcType="VARCHAR"/>
+                <result column="recordTime" property="recordTime" jdbcType="VARCHAR"/>
+                <result column="linkMall" property="linkMall" jdbcType="VARCHAR"/>
+        </resultMap>
+        <insert id="insert" parameterType="com.sk.p2p.camera.entity.Device">
+                INSERT INTO integralmall
+                (id,
+                userName,
+                signNum,
+                integral,
+                exchangeRecord,
+                recordTime,
+                linkMall)
+                VALUES(#{id,jdbcType=VARCHAR},
+                #{userName,jdbcType=VARCHAR},
+                #{signNum,jdbcType=VARCHAR},
+                #{integral,jdbcType=VARCHAR},
+                #{exchangeRecord,jdbcType=VARCHAR},
+                #{recordTime,jdbcType=VARCHAR},
+                #{linkMall,jdbcType=VARCHAR});
+        </insert>
+
+        <update id="update" >
+                UPDATE integralmall SET
+                userName=#{hospitalName},
+                signNum=#{hospitalNum},
+                integral=#{hospitalUrl},
+                exchangeRecord=#{hospitalCall},
+                recordTime=#{hospitalAbstract},
+                linkMall=#{hospitalTeam}
+                where id=#{id}
+        </update>
+
+        <select id="selectAll" resultMap="BaseResultMap">
+                SELECT * FROM integralmall;
+        </select>
+
+        <select id="selectById" resultMap="BaseResultMap">
+                SELECT * FROM integralmall t where t.id=#{id,jdbcType=VARCHAR};
+        </select>
+
+</mapper>

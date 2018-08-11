@@ -9,6 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,8 +19,8 @@ import java.util.Map;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class TestHospitalEntityService {
-    private static Logger logger = LoggerFactory.getLogger(TestHospitalEntityService.class);
+public class TestCooperationcenterService {
+    private static Logger logger = LoggerFactory.getLogger(TestCooperationcenterService.class);
 
     @Test
     public void testSimpleRequest() {
@@ -26,7 +28,12 @@ public class TestHospitalEntityService {
         Map<String, String> params = new HashMap<>();
         params.put("id", "1");
 //        String post = bean.post("http://47.95.238.222:8080/api/v1/hospital/findById", params);
-        String post = bean.post("http://127.0.0.1:8080/api/v1/hospital/selectAll", params);
+        String post = bean.post("http://127.0.0.1:8080/api/v1/cooperationcenter/selectAll", params);
+        try {
+            post = URLDecoder.decode(post, "utf-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         logger.info(post);
 
 

@@ -1,0 +1,23 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sk.p2p.camera.mapper.LevelcenterMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.Levelcenter">
+                <id column="id" property="id" jdbcType="VARCHAR"/>
+                <result column="hospitalName" property="hospitalName" jdbcType="VARCHAR"/>
+                <result column="drugOrder" property="drugOrder" jdbcType="VARCHAR"/>
+                <result column="drugName" property="drugName" jdbcType="VARCHAR"/>
+                <result column="rawOrder" property="rawOrder" jdbcType="VARCHAR"/>
+                <result column="rowName" property="rowName" jdbcType="VARCHAR"/>
+                <result column="orderTime" property="orderTime" jdbcType="VARCHAR"/>
+                <result column="creditLevel" property="creditLevel" jdbcType="VARCHAR"/>
+        </resultMap>
+
+        <select id="selectAll" resultMap="BaseResultMap">
+                SELECT * FROM levelcenter;
+        </select>
+
+        <select id="selectById" resultMap="BaseResultMap">
+                SELECT * FROM levelcenter t where t.id=#{id,jdbcType=VARCHAR};
+        </select>
+</mapper>

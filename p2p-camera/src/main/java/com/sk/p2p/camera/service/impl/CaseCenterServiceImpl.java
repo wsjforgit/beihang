@@ -2,37 +2,31 @@ package com.sk.p2p.camera.service.impl;
 
 import com.sk.base.service.impl.BaseServiceImpl;
 import com.sk.base.utils.HttpUtils;
-import com.sk.p2p.camera.entity.HospitalEntity;
-import com.sk.p2p.camera.mapper.HospitalEntityMapper;
-import com.sk.p2p.camera.service.HospitalEntityService;
+import com.sk.p2p.camera.entity.CaseCenter;
+import com.sk.p2p.camera.mapper.CaseCenterMapper;
+import com.sk.p2p.camera.service.CaseCenterService;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Caching;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
-
 @Service
 @Transactional
-public class HospitalEntityServiceImpl extends BaseServiceImpl<HospitalEntity, HospitalEntityMapper> implements HospitalEntityService {
+public class CaseCenterServiceImpl extends BaseServiceImpl<CaseCenter, CaseCenterMapper> implements CaseCenterService {
     private static org.slf4j.Logger logger = LoggerFactory.getLogger(HttpUtils.class);
     @Autowired
     RedisTemplate<String, String> redisTemplate;
 
     @Autowired
-    HospitalEntityMapper HospitalEntityMapper;
+    CaseCenterMapper caseCenterlMapper;
 
     @Autowired
     HttpUtils httpUtils;
 
-
     @Override
-    public HospitalEntity findById(String id) {
-        HospitalEntity hospitalEntity = HospitalEntityMapper.selectById(id);
-        return hospitalEntity;
+    public CaseCenter findById(String id) {
+        CaseCenter caseCenter = caseCenterlMapper.selectById(id);
+        return caseCenter;
     }
-
 }

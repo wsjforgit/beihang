@@ -1,13 +1,15 @@
 package com.sk.p2p.camera.entity;
 
 import com.sk.base.entity.BaseEntity;
+import com.sk.base.utils.KeyGenerator;
 import lombok.Data;
 
 /**
  * Created by wsj on 2018/7/12.
  */
 @Data
-public class caseCenter extends BaseEntity {
+public class CaseCenter extends BaseEntity {
+    //案例中心
     private String id;
     //案例名称
     private String caseName;
@@ -32,6 +34,11 @@ public class caseCenter extends BaseEntity {
 
     @Override
     public String getId() {
+        if(id==null||"".equalsIgnoreCase(id)){
+            id = KeyGenerator.getUUId();
+        }else {
+            id=id;
+        }
         return id;
     }
 
