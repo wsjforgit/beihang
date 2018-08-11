@@ -25,7 +25,7 @@ public class TestHospitalEntityService {
         HttpUtils bean = ApplicationContextUtil.getBean(HttpUtils.class);
         Map<String, String> params = new HashMap<>();
         params.put("id", "1");
-        String post = bean.post("http://47.95.238.222:8080/api/v1/Hospital/findById", params);
+        String post = bean.post("http://47.95.238.222:8080/api/v1/hospital/findById", params);
         logger.info(post);
 
 
