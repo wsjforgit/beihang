@@ -19,52 +19,24 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/levelcenter")
-public class LevelcenterController extends BaseController {
+@RequestMapping("/api/v1/video")
+public class VideoController extends BaseController {
     private final Logger logger = Logger.getLogger(this.getClass());
 
     @Autowired
     private LevelcenterService levelcenterService;
 
-
-    /**
-     * 根据id查询数据
-     *
-     * @param
-     * @return
-     */
-    @RequestMapping(value = "/findById", method = RequestMethod.GET)
-    public Result findById(@NotEmpty(message = "id不能为空") String id) {
-        Levelcenter backOne = levelcenterService.findById(id);
-        String backMessage ="";
-        if(backOne!=null){
-            backMessage = JsonFormatOutUtil.toJSONString(backOne);
-//            try {
-//                backMessage= URLEncoder.encode(backMessage, "utf-8");
-//            } catch (UnsupportedEncodingException e) {
-//                e.printStackTrace();
-//            }
-            logger.info(backMessage);
-            return new Result(ResultState.SUCCESS, backMessage);
-        }
-        return new Result(ResultState.FAIL, "失败");
-    }
     /**
      * 查询所有数据
      *
      * @param
      * @return
      */
-    @RequestMapping(value = "/selectAll", method = RequestMethod.GET)
-    public Result selectAll() {
+    @RequestMapping(value = "/videoShow", method = RequestMethod.POST)
+    public Result videoShow() {
         List<Levelcenter> ListBack = levelcenterService.findAll();
         if(ListBack!=null&&ListBack.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListBack);
-//            try {
-//                backMessage= URLEncoder.encode(backMessage, "utf-8");
-//            } catch (UnsupportedEncodingException e) {
-//                e.printStackTrace();
-//            }
             return new Result(ResultState.SUCCESS, backMessage);
         }
         return new Result(ResultState.SUCCESS, "失败");

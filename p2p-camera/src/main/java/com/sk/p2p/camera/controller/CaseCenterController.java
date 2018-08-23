@@ -35,17 +35,17 @@ public class CaseCenterController extends BaseController {
      * @param
      * @return
      */
-    @RequestMapping(value = "/findById", method = RequestMethod.POST)
+    @RequestMapping(value = "/findById", method = RequestMethod.GET)
     public Result findById(@NotEmpty(message = "id不能为空") String id) {
         CaseCenter bakcOne = caseCenterService.findById(id);
         String backMessage ="";
         if(bakcOne!=null){
             backMessage = JsonFormatOutUtil.toJSONString(bakcOne);
-            try {
-                backMessage= URLEncoder.encode(backMessage, "utf-8");
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                backMessage= URLEncoder.encode(backMessage, "utf-8");
+//            } catch (UnsupportedEncodingException e) {
+//                e.printStackTrace();
+//            }
             logger.info(backMessage);
             return new Result(ResultState.SUCCESS, backMessage);
         }
@@ -57,16 +57,16 @@ public class CaseCenterController extends BaseController {
      * @param
      * @return
      */
-    @RequestMapping(value = "/selectAll", method = RequestMethod.POST)
+    @RequestMapping(value = "/selectAll", method = RequestMethod.GET)
     public Result selectAll() {
         List<CaseCenter> ListBack = caseCenterService.findAll();
         if(ListBack!=null&&ListBack.size()>0){
             String backMessage = JsonFormatOutUtil.toJSONString(ListBack);
-            try {
-                backMessage= URLEncoder.encode(backMessage, "utf-8");
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                backMessage= URLEncoder.encode(backMessage, "utf-8");
+//            } catch (UnsupportedEncodingException e) {
+//                e.printStackTrace();
+//            }
             return new Result(ResultState.SUCCESS, backMessage);
         }
         return new Result(ResultState.SUCCESS, "失败");
