@@ -6,6 +6,8 @@ import com.sk.base.controller.BaseController;
 import com.sk.base.utils.JsonFormatOutUtil;
 import com.sk.p2p.camera.entity.Levelcenter;
 import com.sk.p2p.camera.service.LevelcenterService;
+import com.sk.p2p.camera.video.BorderInit;
+import com.sk.p2p.camera.video.ReceiveImages;
 import org.apache.log4j.Logger;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,13 +34,10 @@ public class VideoController extends BaseController {
      * @param
      * @return
      */
-    @RequestMapping(value = "/videoShow", method = RequestMethod.POST)
+    @RequestMapping(value = "/videoShow", method = RequestMethod.GET)
     public Result videoShow() {
-        List<Levelcenter> ListBack = levelcenterService.findAll();
-        if(ListBack!=null&&ListBack.size()>0){
-            String backMessage = JsonFormatOutUtil.toJSONString(ListBack);
-            return new Result(ResultState.SUCCESS, backMessage);
-        }
+        logger.info("im in videoShow");
+        new ReceiveImages(new BorderInit(),"172.30.3.209").start();
         return new Result(ResultState.SUCCESS, "失败");
     }
 

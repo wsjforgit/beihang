@@ -1,0 +1,21 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sk.p2p.camera.mapper.MedicalcenterMapper">
+        <resultMap id="BaseResultMap" type="com.sk.p2p.camera.entity.Medicalcenter">
+                <id column="id" property="id" jdbcType="VARCHAR"/>
+                <result column="hospitalName" property="hospitalName" jdbcType="VARCHAR"/>
+                <result column="illnessStatus" property="illnessStatus" jdbcType="VARCHAR"/>
+                <result column="illnessTime" property="illnessTime" jdbcType="VARCHAR"/>
+                <result column="illnessMan" property="illnessMan" jdbcType="VARCHAR"/>
+        </resultMap>
+
+        <select id="selectAll" resultMap="BaseResultMap">
+                SELECT * FROM medicalcenter;
+        </select>
+
+        <select id="selectById" resultMap="BaseResultMap">
+                SELECT * FROM medicalcenter t where t.id=#{id,jdbcType=VARCHAR};
+        </select>
+
+</mapper>
