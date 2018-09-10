@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>注册</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label fixed>账号</ion-label>
+    <ion-input type="text" [(ngModel)]="name" placeholder="请输入账号" #username></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>密码</ion-label>
+    <ion-input type="password" [(ngModel)]="pwd" placeholder="请输入密码" #password></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label fixed>确认密码</ion-label>
+    <ion-input type="repassword" [(ngModel)]="repwd" placeholder="请再次输入密码" #repassword></ion-input>
+  </ion-item>
+  <ion-item no-lines>
+    <ion-label color="danger">{{err}}</ion-label>
+  </ion-item>
+
+  <div style="text-align: center; margin-left: 30px; margin-right: 30px;">
+    <button ion-button block color="danger" (click)="register(username, password,repassword)">
+      注册
+    </button>
+  </div>
+</ion-content>

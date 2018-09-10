@@ -29,9 +29,9 @@ public class TestMedicalcenterService {
         Map<String, String> params = new HashMap<>();
         params.put("id", "1");
 //        String post = bean.post("http://47.95.238.222:8080/api/v1/hospital/findById", params);
-        JSONObject post = bean.getForJson("http://127.0.0.1:8080/api/v1/medicalcenter/selectAll");
+        JSONObject post = bean.getForJson("http://47.95.238.222:8080/api/v1/medicalcenter/selectAll");
 //        String post = bean.post("http://127.0.0.1:8080/api/v1/levelcenter/selectAll", params);
-        logger.info(post.toJSONString());
+        logger.info("wsjtest"+post.toJSONString());
 
     }
 }

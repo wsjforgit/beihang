@@ -1,0 +1,49 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let item of datas">
+      <ion-card-content *ngIf="num==1">
+          <ion-card-title>
+              {{item.hospitalName}}
+          </ion-card-title>
+          <p>地址：{{item.hospitalUrl}}</p>
+          <p>过往案例：{{item.hospitalAbstract}}</p>
+          <p>案例等级：{{item.hospitalTeam}}</p>
+          <p>主要药物：{{item.linkUser}}</p>
+          <p>时间：{{item.updateTime}}</p>
+      </ion-card-content>
+      <ion-card-content *ngIf="num==2">
+          <ion-card-title>
+              {{item.hospitalName }}
+          </ion-card-title>
+          <p>购买药物订单：{{item.drugOrder}}</p>
+          <p>制药厂商：{{item.drugName}}</p>
+          <p>原材料信息订单：{{item.rawOrder}}</p>
+          <p>药材供应商：{{item.rowName }}</p>
+          <p>时间：{{item.orderTime}}</p>
+          <p>信誉等级：{{item.creditLevel}}</p>
+      </ion-card-content>
+      <ion-card-content *ngIf="num==3">
+          <ion-card-title>
+              {{item.hospitalName }}
+          </ion-card-title>
+          <p>状态：{{item.illnessStatus}}</p>
+          <p>时间：{{item.illnessTime}}</p>
+          <p>患者名称：{{item.illnessMan}}</p>
+      </ion-card-content>
+      <ion-card-content *ngIf="num==4">
+          <ion-card-title>
+              {{item.hospitalName }}
+          </ion-card-title>
+          <p>制药厂商：{{item.supplierName}}</p>
+          <p>药材供应商：{{item.herbsName }}</p>
+          <p>时间：{{item.cooperationTime}}</p>
+      </ion-card-content>
+  </ion-card>
+</ion-content>

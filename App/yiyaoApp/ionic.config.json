@@ -1,0 +1,13 @@
+{
+  "name": "ionicapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/api", 
+      "proxyUrl": "http://47.95.238.222:8080/api"
+    }
+  ]
+}

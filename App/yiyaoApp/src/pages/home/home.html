@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      首页
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+    <ion-grid style="text-align: center">
+      <ion-row>
+        <ion-col col-6><button ion-button full (click)="goPage(1)">合作医院</button></ion-col>
+        <ion-col col-6><button ion-button full (click)="goPage(2)">信用中心</button></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-6><button ion-button full (click)="goPage(3)">医疗中心</button></ion-col>
+        <ion-col col-6><button ion-button full (click)="goPage(4)">合作中心</button></ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -17,9 +17,9 @@ public class ReceiveImages extends Thread {
         public Socket socket;
         public String IP;
 
-//    public static void main(String[] args){
-//        new ReceiveImages(new BorderInit(),"172.30.3.209").start();
-//    }
+    public static void main(String[] args){
+        new ReceiveImages(new BorderInit(),"172.30.3.209").start();
+    }
     //接收图片
     public ReceiveImages(BorderInit frame,String IP){
         this.frame = frame;
